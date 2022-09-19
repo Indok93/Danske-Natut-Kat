@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +25,8 @@
   width: 500px;
   height: 500px;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -52,33 +52,34 @@
   width: 500px;
   height: 500px;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-  }
-  
-  .katstyle {
-    display: grid;
-    margin-right: 100px;
-    margin-left: 100px;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .katstyle figure {
-    border: 5px solid green;
-    height: auto;
-    border-radius: 10px;
-    text-align: center;
-    margin: 20px;
-  }
-  
-  .katstyle img {
-    width: 500px;
-    height: 500px;
-  }
 
-  .katstyle h2 {
-    font-family: 'Aref Ruqaa Ink', serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.katstyle {
+  display: grid;
+  margin-right: 100px;
+  margin-left: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.katstyle figure {
+  border: 5px solid green;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.katstyle img {
+  width: 500px;
+  height: 500px;
+}
+
+.katstyle h2 {
+  font-family: "Aref Ruqaa Ink", serif;
+}/*# sourceMappingURL=main.css.map */
