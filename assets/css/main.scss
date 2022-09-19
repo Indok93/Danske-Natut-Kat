@@ -1,0 +1,25 @@
+@import "abstracts/colors";
+@import "abstracts/fonts";
+
+@include primaryFont;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-section{
+    max-width: 1200px;
+    margin: auto;
+    background-color: $primary;
+    padding: 20px;
+    img{
+        width: 400px;
+    }
+    h1{
+        font-family: 'Aref Ruqaa Ink', serif;
+    }
+    p{
+        font-family: 'Aref Ruqaa Ink', serif;
+    }
+}

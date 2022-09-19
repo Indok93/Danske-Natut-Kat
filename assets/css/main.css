@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #a0c152;
+  padding: 20px;
+}
+.main-section img {
+  width: 400px;
+}
+.main-section h1 {
+  font-family: "Aref Ruqaa Ink", serif;
+}
+.main-section p {
+  font-family: "Aref Ruqaa Ink", serif;
+}/*# sourceMappingURL=main.css.map */
