@@ -1,0 +1,57 @@
+Cards med image og anchor:
+kode dokumentation:
+    - variabler:
+        - figure --> string
+	      - url --> string
+
+        - cardCreate()
+            - generer kort
+                - skriv url
+
+Hvis du ikke har fået udleveret tekst og billeder til en sektion, så brug LoremIpsum, og billeder af katte.
+
+
+Style dukomentation:
+Partials, mixins & variabler
+
+1. Typografi (fonts)
+	- @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+	- font-family: 'Aref Ruqaa Ink', serif;
+
+2. Farver (colors)
+	- Findes efter eget valg
+	- Opsættes som variabler
+	#a0c152 | #78a044 | #46772c | #b2ceb8 | #73a16d
+
+3. Kort (cards)
+	- Opret mixin
+		- GalleriKortStyle
+			- styling af drop shadow, border
+4. Galleri
+	- Style med grid, 3 på hver linje
+
+5. Header (headers)
+	- Indeholder navigation
+		- style flex, centreret, rollover-effekt,
+
+6. Logo (logos)
+	- Opret mixin
+		- styling af logo, foran eller over navigationen
+
+7. Formular (forms)
+Form med kattens vægt, kattens farve og bestil knap
+	- Oprette mixin
+		- style input felt, input tekst, select liste og knap
+
+8. Knapper (buttons)
+	- Oprette mixin
+		- styling af button (fri)
+
+9. Footer (footers)
+	- indeholder adresse, mail, telefonnummer (katteværns)
+
+10. Main-Section
+	- indeholder billdede, h1, paragraph(lorem ipsum)
+
+11. Second-Section
+	- indeholder billede, h1, paragraph(lorem ipsum)
